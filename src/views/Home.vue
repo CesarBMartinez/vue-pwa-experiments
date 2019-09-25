@@ -1,7 +1,8 @@
 <template>
-  <div class="home">
+  <section class="text-center">
+    <h1>Home</h1>
     <img alt="Vue logo" src="../assets/logo.png" />
-  </div>
+  </section>
 </template>
 
 <script>
