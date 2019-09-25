@@ -55,6 +55,11 @@ export default {
           to: '/'
         },
         {
+          title: 'Camera',
+          icon: 'camera',
+          to: '/camera'
+        },
+        {
           title: 'QR Code',
           icon: 'qrcode-scan',
           to: '/qrcode'

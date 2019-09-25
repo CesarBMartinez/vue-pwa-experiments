@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import QRCode from '../views/QRCode.vue';
+import Camera from '../views/Camera.vue';
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/qrcode',
     name: 'qrcode',
     component: QRCode
+  },
+  {
+    path: '/camera',
+    name: 'camera',
+    component: Camera
   },
   {
     path: '/about',
